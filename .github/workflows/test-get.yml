@@ -33,6 +33,8 @@ jobs:
           python print_test.py
           
       - name: Test accessing env vars
+        env:
+          MONGO_FAKE_KEY: ${{ secrets.MONGO_FAKE_KEY }}
         run: |
           echo printint out env var
           echo -----------------------------
