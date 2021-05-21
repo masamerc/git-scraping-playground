@@ -1,5 +1,5 @@
 #!/usr/bin/python
 
-from __futures__ import print_function
+from __future__ import print_function
 
 print("hello script")
