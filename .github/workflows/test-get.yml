@@ -18,16 +18,12 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Check out this repo
         uses: actions/checkout@v2
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          ls -l
-          cat print_test.py
-          python print_test.py
           
-      - name: Test accessing env vars
+      - name: install dependencies
         run: |
-          python --version
-          python3 --version
+          pip install -r requirements.txt
+          
+      - name: load data to MongoDB
+        run: |
+          python to_mongo.py
           
