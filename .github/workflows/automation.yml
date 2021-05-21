@@ -1,7 +1,6 @@
-name: CI
+name: load to mongo & save json
 
 on:
-#   push:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
   schedule:
@@ -28,4 +27,13 @@ jobs:
           MONGO_URI: ${{ secrets.MONGO_URI }}
         run: |
           python to_mongo.py
+          
+      - name: commit changes including downloaded json
+        run: |
+          git config user.name "Automated"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          timestamp=$(date -u)
+          git commit -m "Latest data: ${timestamp}" || exit 0
+          git push
           
