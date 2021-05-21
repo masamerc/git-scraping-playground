@@ -35,5 +35,7 @@ jobs:
       - name: Test accessing env vars
         run: |
           echo printint out env var
-          echo ${{ env.fake_mongo_key }}
+          echo -----------------------------
+          echo ${{ env.MONGO_FAKE_KEY }}
+          echo end--------------------------
           
