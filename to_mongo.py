@@ -22,8 +22,8 @@ if __name__ == '__main__':
     logger.info('Inserting {} documents'.format(len(repos)))
 
     # save response as json
-    formatted_date = datetime.datetime.now().strftime("%Y%m%d_%H:%m:%s")
-    with open('masamerc_repos_{}.json'.format(formatted_date), 'w') as f:
+    # formatted_date = datetime.datetime.now().strftime("%Y%m%d_%H:%m:%s")
+    with open('masamerc_repos.json', 'w') as f:
         json.dump(repos, f, indent=2)
 
     # inserting data into / updating data in MongoDB
