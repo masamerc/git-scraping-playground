@@ -24,6 +24,8 @@ jobs:
           pip install -r requirements.txt
           
       - name: load data to MongoDB
+        env:
+          MONGO_URI: ${{ secrets.MONGO_URI }}
         run: |
           python to_mongo.py
           
