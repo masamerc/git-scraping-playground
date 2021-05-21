@@ -31,3 +31,9 @@ jobs:
           ls -l
           cat print_test.py
           python print_test.py
+          
+      - name: Test accessing env vars
+        run: |
+          echo printint out env var
+          echo ${{ env.fake_mongo_key }}
+          
