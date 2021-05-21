@@ -1,32 +1,35 @@
 import datetime
+import json
 import logging
 import os
 import requests
 
 from pymongo import MongoClient
 
-# logging
+# logger setup
 logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(name=__name__)
 
 
-client = MongoClient(os.environ.get('MONGO_URI'))
-
-res = requests.get('https://api.github.com/users/Masamerc/repos')
-repos = res.json()
-
-for repo in repos:
-    repo['requested_at'] = datetime.datetime.now()
-
-
 if __name__ == '__main__':
+    # set up pymongo client
+    client = MongoClient(os.environ.get('MONGO_URI'))
     db = client['personal-datalake']
     col = db.github_repos
-
+    
+    res = requests.get('https://api.github.com/users/Masamerc/repos')
+    repos = res.json()
     logger.info('Inserting {} documents'.format(len(repos)))
 
-    for repo in repos:
+    # save response as json
+    formatted_date = datetime.datetime.now().strftime("%Y%m%d_%H:%m:%s")
+    with open('masamerc_repos_{}.json'.format(formatted_date), 'w') as f:
+        json.dump(repos, f, indent=2)
 
+    # inserting data into / updating data in MongoDB
+    for repo in repos:
+        repo['requested_at'] = datetime.datetime.now()
+        
         if col.find({'name': repo['name']}):
             logger.info('Document with name {} found. Updating'.format(repo['name']))
             col.update_one(
