@@ -1,3 +1,4 @@
+![github actions status](https://github.com/Masamerc/git-scraping-playground/actions/workflows/automation.yml/badge.svg)
 # git-scraping-playground
 a repo for tesing git-scraping using github actions and MongoDB.
 
