@@ -36,6 +36,6 @@ jobs:
         run: |
           echo printint out env var
           echo -----------------------------
-          echo ${{ env.MONGO_FAKE_KEY }}
+          echo $MONGO_FAKE_KEY
           echo end--------------------------
           
