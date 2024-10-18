@@ -23,6 +23,7 @@
       "events_url": "https://api.github.com/users/masamerc/events{/privacy}",
       "received_events_url": "https://api.github.com/users/masamerc/received_events",
       "type": "User",
+      "user_view_type": "public",
       "site_admin": false
     },
     "html_url": "https://github.com/masamerc/brot",
@@ -123,6 +124,7 @@
       "events_url": "https://api.github.com/users/masamerc/events{/privacy}",
       "received_events_url": "https://api.github.com/users/masamerc/received_events",
       "type": "User",
+      "user_view_type": "public",
       "site_admin": false
     },
     "html_url": "https://github.com/masamerc/ca-fires-history",
@@ -223,6 +225,7 @@
       "events_url": "https://api.github.com/users/masamerc/events{/privacy}",
       "received_events_url": "https://api.github.com/users/masamerc/received_events",
       "type": "User",
+      "user_view_type": "public",
       "site_admin": false
     },
     "html_url": "https://github.com/masamerc/cli-skeletons",
@@ -323,6 +326,7 @@
       "events_url": "https://api.github.com/users/masamerc/events{/privacy}",
       "received_events_url": "https://api.github.com/users/masamerc/received_events",
       "type": "User",
+      "user_view_type": "public",
       "site_admin": false
     },
     "html_url": "https://github.com/masamerc/Cookbook",
@@ -429,6 +433,7 @@
       "events_url": "https://api.github.com/users/masamerc/events{/privacy}",
       "received_events_url": "https://api.github.com/users/masamerc/received_events",
       "type": "User",
+      "user_view_type": "public",
       "site_admin": false
     },
     "html_url": "https://github.com/masamerc/countdown",
@@ -535,6 +540,7 @@
       "events_url": "https://api.github.com/users/masamerc/events{/privacy}",
       "received_events_url": "https://api.github.com/users/masamerc/received_events",
       "type": "User",
+      "user_view_type": "public",
       "site_admin": false
     },
     "html_url": "https://github.com/masamerc/covid19",
@@ -641,6 +647,7 @@
       "events_url": "https://api.github.com/users/masamerc/events{/privacy}",
       "received_events_url": "https://api.github.com/users/masamerc/received_events",
       "type": "User",
+      "user_view_type": "public",
       "site_admin": false
     },
     "html_url": "https://github.com/masamerc/cryf",
@@ -747,6 +754,7 @@
       "events_url": "https://api.github.com/users/masamerc/events{/privacy}",
       "received_events_url": "https://api.github.com/users/masamerc/received_events",
       "type": "User",
+      "user_view_type": "public",
       "site_admin": false
     },
     "html_url": "https://github.com/masamerc/ddp",
@@ -847,6 +855,7 @@
       "events_url": "https://api.github.com/users/masamerc/events{/privacy}",
       "received_events_url": "https://api.github.com/users/masamerc/received_events",
       "type": "User",
+      "user_view_type": "public",
       "site_admin": false
     },
     "html_url": "https://github.com/masamerc/de-playground",
@@ -947,6 +956,7 @@
       "events_url": "https://api.github.com/users/masamerc/events{/privacy}",
       "received_events_url": "https://api.github.com/users/masamerc/received_events",
       "type": "User",
+      "user_view_type": "public",
       "site_admin": false
     },
     "html_url": "https://github.com/masamerc/dotfiles",
@@ -1047,6 +1057,7 @@
       "events_url": "https://api.github.com/users/masamerc/events{/privacy}",
       "received_events_url": "https://api.github.com/users/masamerc/received_events",
       "type": "User",
+      "user_view_type": "public",
       "site_admin": false
     },
     "html_url": "https://github.com/masamerc/easy-beam-pipeline",
@@ -1153,6 +1164,7 @@
       "events_url": "https://api.github.com/users/masamerc/events{/privacy}",
       "received_events_url": "https://api.github.com/users/masamerc/received_events",
       "type": "User",
+      "user_view_type": "public",
       "site_admin": false
     },
     "html_url": "https://github.com/masamerc/fennec-alert",
@@ -1259,6 +1271,7 @@
       "events_url": "https://api.github.com/users/masamerc/events{/privacy}",
       "received_events_url": "https://api.github.com/users/masamerc/received_events",
       "type": "User",
+      "user_view_type": "public",
       "site_admin": false
     },
     "html_url": "https://github.com/masamerc/fsp",
@@ -1359,6 +1372,7 @@
       "events_url": "https://api.github.com/users/masamerc/events{/privacy}",
       "received_events_url": "https://api.github.com/users/masamerc/received_events",
       "type": "User",
+      "user_view_type": "public",
       "site_admin": false
     },
     "html_url": "https://github.com/masamerc/git-scraping-playground",
@@ -1402,14 +1416,14 @@
     "releases_url": "https://api.github.com/repos/masamerc/git-scraping-playground/releases{/id}",
     "deployments_url": "https://api.github.com/repos/masamerc/git-scraping-playground/deployments",
     "created_at": "2021-05-21T07:44:37Z",
-    "updated_at": "2024-10-16T12:06:06Z",
-    "pushed_at": "2024-10-16T12:06:02Z",
+    "updated_at": "2024-10-17T12:06:04Z",
+    "pushed_at": "2024-10-17T12:06:00Z",
     "git_url": "git://github.com/masamerc/git-scraping-playground.git",
     "ssh_url": "git@github.com:masamerc/git-scraping-playground.git",
     "clone_url": "https://github.com/masamerc/git-scraping-playground.git",
     "svn_url": "https://github.com/masamerc/git-scraping-playground",
     "homepage": null,
-    "size": 673,
+    "size": 675,
     "stargazers_count": 1,
     "watchers_count": 1,
     "language": "Python",
@@ -1459,6 +1473,7 @@
       "events_url": "https://api.github.com/users/masamerc/events{/privacy}",
       "received_events_url": "https://api.github.com/users/masamerc/received_events",
       "type": "User",
+      "user_view_type": "public",
       "site_admin": false
     },
     "html_url": "https://github.com/masamerc/goc",
@@ -1559,6 +1574,7 @@
       "events_url": "https://api.github.com/users/masamerc/events{/privacy}",
       "received_events_url": "https://api.github.com/users/masamerc/received_events",
       "type": "User",
+      "user_view_type": "public",
       "site_admin": false
     },
     "html_url": "https://github.com/masamerc/gruvbox-factory",
@@ -1665,6 +1681,7 @@
       "events_url": "https://api.github.com/users/masamerc/events{/privacy}",
       "received_events_url": "https://api.github.com/users/masamerc/received_events",
       "type": "User",
+      "user_view_type": "public",
       "site_admin": false
     },
     "html_url": "https://github.com/masamerc/inverted-index",
@@ -1765,6 +1782,7 @@
       "events_url": "https://api.github.com/users/masamerc/events{/privacy}",
       "received_events_url": "https://api.github.com/users/masamerc/received_events",
       "type": "User",
+      "user_view_type": "public",
       "site_admin": false
     },
     "html_url": "https://github.com/masamerc/jaffle_shop_duckdb",
@@ -1871,6 +1889,7 @@
       "events_url": "https://api.github.com/users/masamerc/events{/privacy}",
       "received_events_url": "https://api.github.com/users/masamerc/received_events",
       "type": "User",
+      "user_view_type": "public",
       "site_admin": false
     },
     "html_url": "https://github.com/masamerc/kakfa-stream-simple-app",
@@ -1971,6 +1990,7 @@
       "events_url": "https://api.github.com/users/masamerc/events{/privacy}",
       "received_events_url": "https://api.github.com/users/masamerc/received_events",
       "type": "User",
+      "user_view_type": "public",
       "site_admin": false
     },
     "html_url": "https://github.com/masamerc/Masamerc",
@@ -2071,6 +2091,7 @@
       "events_url": "https://api.github.com/users/masamerc/events{/privacy}",
       "received_events_url": "https://api.github.com/users/masamerc/received_events",
       "type": "User",
+      "user_view_type": "public",
       "site_admin": false
     },
     "html_url": "https://github.com/masamerc/masamerc.github.io",
@@ -2171,6 +2192,7 @@
       "events_url": "https://api.github.com/users/masamerc/events{/privacy}",
       "received_events_url": "https://api.github.com/users/masamerc/received_events",
       "type": "User",
+      "user_view_type": "public",
       "site_admin": false
     },
     "html_url": "https://github.com/masamerc/mr-garbage",
@@ -2271,6 +2293,7 @@
       "events_url": "https://api.github.com/users/masamerc/events{/privacy}",
       "received_events_url": "https://api.github.com/users/masamerc/received_events",
       "type": "User",
+      "user_view_type": "public",
       "site_admin": false
     },
     "html_url": "https://github.com/masamerc/ojichat",
@@ -2377,6 +2400,7 @@
       "events_url": "https://api.github.com/users/masamerc/events{/privacy}",
       "received_events_url": "https://api.github.com/users/masamerc/received_events",
       "type": "User",
+      "user_view_type": "public",
       "site_admin": false
     },
     "html_url": "https://github.com/masamerc/ooda",
@@ -2483,6 +2507,7 @@
       "events_url": "https://api.github.com/users/masamerc/events{/privacy}",
       "received_events_url": "https://api.github.com/users/masamerc/received_events",
       "type": "User",
+      "user_view_type": "public",
       "site_admin": false
     },
     "html_url": "https://github.com/masamerc/redditract-pipeline",
@@ -2589,6 +2614,7 @@
       "events_url": "https://api.github.com/users/masamerc/events{/privacy}",
       "received_events_url": "https://api.github.com/users/masamerc/received_events",
       "type": "User",
+      "user_view_type": "public",
       "site_admin": false
     },
     "html_url": "https://github.com/masamerc/rust-pyo3-bench",
@@ -2689,6 +2715,7 @@
       "events_url": "https://api.github.com/users/masamerc/events{/privacy}",
       "received_events_url": "https://api.github.com/users/masamerc/received_events",
       "type": "User",
+      "user_view_type": "public",
       "site_admin": false
     },
     "html_url": "https://github.com/masamerc/rustlings",
@@ -2795,6 +2822,7 @@
       "events_url": "https://api.github.com/users/masamerc/events{/privacy}",
       "received_events_url": "https://api.github.com/users/masamerc/received_events",
       "type": "User",
+      "user_view_type": "public",
       "site_admin": false
     },
     "html_url": "https://github.com/masamerc/terraform-provider-snowflake",
